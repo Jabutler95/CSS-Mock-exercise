@@ -1,0 +1,84 @@
+.buttons {
+    background-color: rgb(100, 119, 211);
+    color: white;
+    height: 3em;
+    width: 6em;
+    border-radius: 15px;
+}
+
+.buttons:hover {
+    background-color: rgb(17, 17, 239);
+}
+
+.catz {
+    border: 1px solid black;
+    width: 50%;
+  border-radius: 8px;
+  background-color: rgb(211, 194, 194);
+}
+.catpic {
+    background-image: url("data:image/jpeg;base64,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");
+    width: 100%;
+  padding-bottom: 50%;
+  background-size: cover;
+  border-radius:  8px;
+
+}
+
+.cattext {
+    padding: 2%;
+}
+
+.tiles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tile  {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    border: 8px solid peachpuff;
+    background-color: peachpuff;
+  }
+
+  .img-wrapper {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 8px;
+    background-size: cover;
+  }
+
+  .caption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 300px;
+    transition: top 0.6s;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  .tile:hover .caption {
+    top: 0;
+  }
+
+  .img-1 {
+    background-image: url("https://c.tenor.com/bgy5DoNRMDYAAAAC/hamster-carrot.gif");
+}
+  .img-2 {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eab6cc47-e9ea-4310-88ed-ba829f8f32f1/d953i0n-98b3962e-cd58-489e-9352-05a719095f10.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VhYjZjYzQ3LWU5ZWEtNDMxMC04OGVkLWJhODI5ZjhmMzJmMVwvZDk1M2kwbi05OGIzOTYyZS1jZDU4LTQ4OWUtOTM1Mi0wNWE3MTkwOTVmMTAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IhqHC2HDTVeHTbKZVo4JjUlecBddrUHowsg3lDS-Nr8");
+  }
+
+ .img-3 {
+    background-image: url("https://c.tenor.com/wDje5TGhTGAAAAAM/self-five-high-five.gif");
+}
